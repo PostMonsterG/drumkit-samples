@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opml version="2.0">
 	<head>
-		<title>DocServerLookupScratchpad</title>
+		<title>DocServerLookup</title>
 		<dateCreated>Sat, 27 Nov 2021 00:53:48 GMT</dateCreated>
 		<rd-repository>drumkit-tests</rd-repository>
 		<rd-path>DocServerLookup.opml</rd-path>
@@ -10,8 +10,8 @@
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
 		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
-		<dateModified>Fri, 24 Dec 2021 23:51:22 GMT</dateModified>
-		<expansionState>1,6,9,11,17</expansionState>
+		<dateModified>Fri, 24 Dec 2021 23:56:54 GMT</dateModified>
+		<expansionState>1,6,9,10,13,19</expansionState>
 		<lastCursor>0</lastCursor>
 		</head>
 	<body>
