@@ -1,4 +1,4 @@
-# SaveFileToGitHub
+# Save File to GitHub
 
 This Drumkit saves the currently open document to GitHub.
 We look for header elements in the OPML to determine where to save the file and how it is processed. 
