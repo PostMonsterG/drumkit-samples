@@ -21,3 +21,16 @@ Controls how the file is processed before uploading
 
   - <b>indented</b>
   Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level
+
+### To install this
+
+#### Open the latest version of this Drumkit in Drummer
+- <b>File → Open URL...</b>
+- https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/SaveFileToGitHub.opml 
+
+#### Add this Drumkit to your scripts menu in Drummer
+- Select the entire outline, i.e., the **Save File to GitHub** node that contains everything
+- Copy it (⌘C)
+- <b>File → Special Files... → Scripts menu... </b>
+- Paste the outline (⌘V)
+- There should be a new **Save File to GitHub** entry in your scripts menu.
