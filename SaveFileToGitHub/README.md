@@ -27,7 +27,7 @@ You will also need to install the **Configure GitHub User Name** Drumkit sample.
 
 #### Open the latest version of this Drumkit in Drummer
 - <b>File → Open URL...</b>
-- https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/SaveFileToGitHub.opml 
+- https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/SaveFileToGitHub/SaveFileToGitHub.opml 
 
 #### Add this Drumkit to your scripts menu in Drummer
 - Select the entire outline, i.e., the **Save File to GitHub** node that contains everything
