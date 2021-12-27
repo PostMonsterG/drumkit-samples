@@ -23,6 +23,7 @@ Controls how the file is processed before uploading
   Suitable for JavaScript, the text from the nodes of the outline will be included, with indentation per OPML indentation level
 
 ### To install this
+You will also need to install the **Configure GitHub User Name** Drumkit sample.
 
 #### Open the latest version of this Drumkit in Drummer
 - <b>File → Open URL...</b>
