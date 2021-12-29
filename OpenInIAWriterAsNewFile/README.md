@@ -3,6 +3,14 @@
 This  Drumkit sample sends the text from the current outline to iA Writer as a new document.
 This can be useful for previewing Markdown.
 
+### To use this
+- Select <b>Open in iA Writer as New File</b> from your scripts menu
+- The text from the current outline will be sent to iA Writer as a new document.
+- Indentation and node structure is ignored.
+- Each node becomes a new line of text.
+- There is a 4,000-character limit to the amount of text which can be sent this way.
+
+
 ### To install this
 
 #### Open the latest version of this Drumkit in Drummer
