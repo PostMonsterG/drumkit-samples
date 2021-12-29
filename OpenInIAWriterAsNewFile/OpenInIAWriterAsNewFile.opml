@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>OpenInIAWriterAsNewFile</title>
+		<dateCreated>Mon, 22 Nov 2021 02:05:51 GMT</dateCreated>
+		<flPublic>true</flPublic>
+		<urlPublic>http://drummer.scripting.com/PostMonsterG/OpenInIAWriterAsNewFile.opml</urlPublic>
+		<rd-repository>drumkit-samples</rd-repository>
+		<rd-path>OpenInIAWriterAsNewFile/OpenInIAWriterAsNewFile.opml</rd-path>
+		<rd-type>opml</rd-type>
+		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
+		<ownerName>Gary Teter</ownerName>
+		<ownerId>http://twitter.com/PostMonsterG</ownerId>
+		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
+		<dateModified>Wed, 29 Dec 2021 03:50:49 GMT</dateModified>
+		<expansionState>1,5,6,9,15</expansionState>
+		<lastCursor>0</lastCursor>
+		</head>
+	<body>
+		<outline text="&lt;b&gt;Open in iA Writer as New File&lt;/b&gt;" created="Sun, 21 Nov 2021 20:08:38 GMT" isComment="false">
+			<outline text="This  Drumkit sample sends the text from the current outline to iA Writer as a new document." created="Sun, 21 Nov 2021 01:37:48 GMT" isComment="true"/>
+			<outline text="This can be useful for previewing Markdown." created="Wed, 29 Dec 2021 01:31:33 GMT" isComment="true"/>
+			<outline text="Created by Gary Teter. " created="Sun, 21 Nov 2021 01:45:54 GMT" isComment="true"/>
+			<outline text="&lt;b&gt;To install this&lt;/b&gt;" created="Tue, 23 Nov 2021 16:23:24 GMT" isComment="true">
+				<outline text="&lt;b&gt;Open the latest version of this Drumkit in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:21:57 GMT">
+					<outline text="&lt;b&gt;File → Open URL...&lt;/b&gt;" created="Tue, 07 Dec 2021 08:24:20 GMT"/>
+					<outline text=" https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/OpenInIAWriterAsNewFile/OpenInIAWriterAsNewFile.opml " created="Tue, 07 Dec 2021 08:04:55 GMT" isComment="true"/>
+					</outline>
+				<outline text="&lt;b&gt;Add this Drumkit to your scripts menu in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:10:02 GMT" isComment="true">
+					<outline text="Select the entire outline, i.e., the above &lt;b&gt;Open in iA Writer as New File &lt;/b&gt;node that contains all this" created="Mon, 22 Nov 2021 01:30:51 GMT" isComment="true"/>
+					<outline text="Copy it (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="true"/>
+					<outline text="&lt;b&gt;File → Special Files... → Scripts menu... &lt;/b&gt;" created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="true"/>
+					<outline text="Paste this outline (⌘V) " created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="true"/>
+					<outline text="There should be a new &lt;b&gt;Open in iA Writer as New File&lt;/b&gt; entry in your scripts menu." created="Mon, 22 Nov 2021 01:33:34 GMT" isComment="true"/>
+					</outline>
+				</outline>
+			<outline text="&lt;b&gt;To use this&lt;/b&gt;" created="Sun, 21 Nov 2021 01:46:44 GMT" isComment="true">
+				<outline text="Select &lt;b&gt;Open in iA Writer as New File&lt;/b&gt; from your scripts menu" created="Sun, 21 Nov 2021 01:46:51 GMT" isComment="true"/>
+				<outline text="The text from the current outline will be sent to iA Writer as a new document." created="Sun, 21 Nov 2021 20:05:11 GMT" isComment="true"/>
+				<outline text="Indentation and node structure is ignored." created="Sun, 21 Nov 2021 20:06:05 GMT" isComment="true"/>
+				<outline text="Each node becomes a new line of text." created="Mon, 22 Nov 2021 00:48:17 GMT" isComment="true"/>
+				<outline text="There is a 4,000-character limit to the amount of text which can be sent this way." created="Mon, 22 Nov 2021 00:25:43 GMT" isComment="true"/>
+				</outline>
+			<outline text="//    &lt;b&gt;Here is the code&lt;/b&gt;" created="Tue, 23 Nov 2021 20:33:18 GMT">
+				<outline text="" created="Tue, 23 Nov 2021 20:33:29 GMT"/>
+				<outline text="const text = GetOutlineContents()" created="Tue, 23 Nov 2021 20:36:51 GMT"/>
+				<outline text="const url = BuildURL( text )" created="Tue, 23 Nov 2021 20:37:08 GMT"/>
+				<outline text="webBrowser.openUrl( url )" created="Sun, 21 Nov 2021 23:27:59 GMT"/>
+				<outline text="" created="Tue, 23 Nov 2021 20:34:26 GMT"/>
+				<outline text="//     &lt;b&gt;Functions&lt;/b&gt;" created="Tue, 23 Nov 2021 20:34:29 GMT">
+					<outline text="//    &lt;b&gt;Get the contents of the outline&lt;/b&gt;" created="Mon, 22 Nov 2021 01:09:31 GMT">
+						<outline text="function GetOutlineContents() {" created="Tue, 23 Nov 2021 20:36:06 GMT">
+							<outline text="var Buffer = &quot;&quot;;" created="Fri, 26 Nov 2021 01:12:21 GMT"/>
+							<outline text="const cursor = op.getCursor()" created="Wed, 07 Apr 2021 16:53:43 GMT"/>
+							<outline text="op.firstSummit()" created="Sun, 21 Nov 2021 22:02:10 GMT"/>
+							<outline text="op.visitAll(  " created="Sun, 21 Nov 2021 20:12:27 GMT" isComment="false">
+								<outline text="function(node, level) {" created="Mon, 22 Nov 2021 01:05:01 GMT">
+									<outline text="const line = node.getLineText()" created="Sun, 21 Nov 2021 23:53:50 GMT"/>
+									<outline text="Buffer =  Buffer + line + &quot;\n&quot;" created="Sun, 21 Nov 2021 23:46:13 GMT"/>
+									<outline text="})" created="Sun, 21 Nov 2021 20:14:25 GMT"/>
+									</outline>
+								</outline>
+							<outline text="op.setCursor( cursor )" created="Wed, 07 Apr 2021 16:54:22 GMT"/>
+							<outline text="return Buffer" created="Fri, 26 Nov 2021 01:13:22 GMT"/>
+							<outline text="}" created="Mon, 22 Nov 2021 01:16:55 GMT"/>
+							<outline text="" created="Tue, 23 Nov 2021 20:36:38 GMT"/>
+							</outline>
+						</outline>
+					<outline text="//    &lt;b&gt;Construct the URL&lt;/b&gt;" created="Mon, 22 Nov 2021 01:11:48 GMT">
+						<outline text="function BuildURL(Text) {" created="Tue, 23 Nov 2021 20:37:42 GMT">
+							<outline text="var encoded = encodeURI( Text )" created="Sun, 21 Nov 2021 23:49:22 GMT" isComment="false"/>
+							<outline text="encoded = string.multipleReplaceAll( encoded, {" created="Sun, 21 Nov 2021 23:38:15 GMT" isComment="false">
+								<outline text="&quot;#&quot;  :    &quot;%23&quot;" created="Sun, 21 Nov 2021 23:39:58 GMT"/>
+								<outline text="})" created="Sun, 21 Nov 2021 23:38:53 GMT"/>
+								</outline>
+							<outline text="const URL = &quot;ia-writer://new?edit=true&amp;text=&quot;  + encoded" created="Sun, 21 Nov 2021 23:20:29 GMT"/>
+							<outline text="return URL" created="Tue, 23 Nov 2021 20:38:03 GMT"/>
+							<outline text="}" created="Mon, 22 Nov 2021 18:06:36 GMT"/>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+		</body>
+	</opml>
