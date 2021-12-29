@@ -3,15 +3,12 @@
 	<head>
 		<title>OpenInIAWriterAsNewFile</title>
 		<dateCreated>Mon, 22 Nov 2021 02:05:51 GMT</dateCreated>
-		<flPublic>true</flPublic>
-		<urlPublic>http://drummer.scripting.com/PostMonsterG/OpenInIAWriterAsNewFile.opml</urlPublic>
 		<rd-repository>drumkit-samples</rd-repository>
 		<rd-path>OpenInIAWriterAsNewFile/OpenInIAWriterAsNewFile.opml</rd-path>
 		<rd-type>opml</rd-type>
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
 		<dateModified>Wed, 29 Dec 2021 03:50:49 GMT</dateModified>
 		<expansionState>1,5,6,9,15</expansionState>
 		<lastCursor>0</lastCursor>
