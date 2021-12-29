@@ -3,6 +3,12 @@
 This Drumkit gets the text of your past day's tweets, in chronological order.  
 This can be useful for creating blog posts from Twitter rants.
 
+### To use this
+
+- Select <b>Get My Latest Twitter Rant</b> from your scripts menu.
+- We'll retrieve the text of your past day's tweets, in chronological order.
+
+
 ### To install this
 
 #### Open the latest version of this Drumkit in Drummer
