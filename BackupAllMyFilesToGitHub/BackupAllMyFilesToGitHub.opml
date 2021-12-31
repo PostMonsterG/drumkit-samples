@@ -9,8 +9,9 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Fri, 31 Dec 2021 09:25:21 GMT</dateModified>
-		<expansionState>1,5,11,14,15,18,24,36,38,42,43,46,51</expansionState>
+		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
+		<dateModified>Fri, 31 Dec 2021 09:47:41 GMT</dateModified>
+		<expansionState>1,5,11,14,15,18,24,34,36,42,43,46,51</expansionState>
 		<lastCursor>0</lastCursor>
 		</head>
 	<body>
@@ -46,18 +47,18 @@
 				<outline text="" created="Sat, 04 Dec 2021 09:04:53 GMT"/>
 				<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT"/>
 				<outline text="const repository     = localStorage.getItem( &quot;rd-backups-repository&quot; )" created="Fri, 24 Dec 2021 20:29:46 GMT"/>
-				<outline text="const last                   = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
-				<outline text="const lastbackup     = last !== null ? new Date( last ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
+				<outline text="const last                  = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
+				<outline text="const lastbackup    = last !== null ? new Date( last ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
 				<outline text="localStorage.setItem( &quot;rd-backups-last&quot;, new Date() )" created="Fri, 31 Dec 2021 05:27:01 GMT"/>
 				<outline text="" created="Fri, 31 Dec 2021 09:15:32 GMT"/>
-				<outline text="var     basepath       = localStorage.getItem( &quot;rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:33:03 GMT"/>
-				<outline text="basepath = string.trimLeading( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:36:39 GMT"/>
-				<outline text="basepath = string.trimTrailing( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:38:12 GMT"/>
+				<outline text="var basepath  = localStorage.getItem( &quot;rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:33:03 GMT"/>
 				<outline text="" created="Fri, 24 Dec 2021 20:41:04 GMT"/>
 				<outline text="if ( username === null || repository === null || basepath === null ) {" created="Fri, 24 Dec 2021 20:41:30 GMT">
 					<outline text="dialog.alert( &quot;Unable to find one or more: rd-username, rd-backups-repository or rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
 					</outline>
 				<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT">
+					<outline text="basepath = string.trimLeading( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:36:39 GMT"/>
+					<outline text="basepath = string.trimTrailing( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:38:12 GMT"/>
 					<outline text="var uploaded = 0" created="Fri, 31 Dec 2021 09:12:20 GMT"/>
 					<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT"/>
 					<outline text="const hierarchy = file.getFileHierarchy()" created="Fri, 31 Dec 2021 03:23:29 GMT"/>
