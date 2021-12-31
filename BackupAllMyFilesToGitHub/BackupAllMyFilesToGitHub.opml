@@ -9,9 +9,10 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Fri, 31 Dec 2021 10:50:53 GMT</dateModified>
+		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
+		<dateModified>Fri, 31 Dec 2021 11:12:21 GMT</dateModified>
 		<expansionState>1,5,11,14,15,18,24,34,36,42,43,45,49,55</expansionState>
-		<lastCursor>0</lastCursor>
+		<lastCursor>57</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;b&gt;Backup All My Files to GitHub&lt;/b&gt;" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false">
@@ -78,6 +79,7 @@
 								<outline text="if ( shouldupload ) {" created="Fri, 31 Dec 2021 10:01:35 GMT">
 									<outline text="if ( data == null ) {  data = file.readWholeFile( filename )  }" created="Fri, 31 Dec 2021 10:32:04 GMT"/>
 									<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
+									<outline text="console.log( &quot;result is &quot; + JSON.stringify( result ) )" created="Fri, 31 Dec 2021 11:04:11 GMT"/>
 									<outline text="uploaded = uploaded + 1" created="Fri, 31 Dec 2021 09:12:39 GMT"/>
 									<outline text="}" created="Fri, 31 Dec 2021 10:01:47 GMT"/>
 									</outline>
