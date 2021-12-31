@@ -1,6 +1,11 @@
 # Save File to GitHub
 
 This Drumkit saves the currently open document to GitHub.
+
+### To use this
+- Select <b>Save file to GitHub</b> from your scripts menu.
+- We will display a dialog box confirming the save.
+
 We look for header elements in the OPML to determine where to save the file and how it is processed. 
 
 - <b>rd-repository</b>
