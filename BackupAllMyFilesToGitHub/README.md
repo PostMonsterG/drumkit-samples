@@ -4,8 +4,6 @@ This Drumkit backs up all your files to GitHub.
 
 Each file is saved as a separate file, there is no zip archive.
 
-Each file will be compared before saving. This version does not compare modification dates. It compares file contents.
-
 <i>Important:</i> This script cannot tell, and will not warn you, if you upload private files to a public repository.
 
 ### To use this
