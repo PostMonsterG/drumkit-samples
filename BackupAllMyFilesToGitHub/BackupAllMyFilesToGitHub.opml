@@ -9,16 +9,18 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Fri, 31 Dec 2021 05:45:51 GMT</dateModified>
-		<expansionState>1,5,10,13,14,17</expansionState>
-		<lastCursor>2</lastCursor>
+		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
+		<dateModified>Fri, 31 Dec 2021 09:25:21 GMT</dateModified>
+		<expansionState>1,5,11,14,15,18,24,36,38,42,43,46,51</expansionState>
+		<lastCursor>0</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;b&gt;Backup All My Files to GitHub&lt;/b&gt;" created="Wed, 08 Dec 2021 19:46:16 GMT" isComment="false">
 			<outline text="This Drumkit backs up all your files to GitHub." created="Fri, 31 Dec 2021 02:55:05 GMT" isComment="true"/>
 			<outline text="Each file is saved as a separate file, there is no zip archive." created="Fri, 31 Dec 2021 03:00:40 GMT" isComment="true"/>
 			<outline text="&lt;i&gt;Important:&lt;/i&gt; This script cannot tell, and will not warn you, if you upload private files to a public repository." created="Thu, 09 Dec 2021 19:09:01 GMT" isComment="true"/>
-			<outline text="We look for these keys in localStorage to determine where to save the file and how it is processed. " created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
+			<outline text="We look for these keys in localStorage " created="Thu, 09 Dec 2021 17:37:10 GMT" isComment="true">
+				<outline text="&lt;b&gt;rd-backups-last&lt;/b&gt;" created="Fri, 31 Dec 2021 08:51:07 GMT"/>
 				<outline text="&lt;b&gt;rd-backups-repository&lt;/b&gt;" created="Fri, 10 Dec 2021 06:27:12 GMT"/>
 				<outline text="&lt;b&gt;rd-backups-path&lt;/b&gt;" created="Fri, 10 Dec 2021 06:27:17 GMT"/>
 				<outline text="&lt;b&gt;rd-username&lt;/b&gt;" created="Tue, 21 Dec 2021 00:45:24 GMT" isComment="false"/>
@@ -45,7 +47,10 @@
 				<outline text="" created="Sat, 04 Dec 2021 09:04:53 GMT"/>
 				<outline text="const username      = localStorage.getItem( &quot;rd-username&quot; )" created="Fri, 24 Dec 2021 20:33:28 GMT"/>
 				<outline text="const repository     = localStorage.getItem( &quot;rd-backups-repository&quot; )" created="Fri, 24 Dec 2021 20:29:46 GMT"/>
-				<outline text="" created="Fri, 31 Dec 2021 05:27:01 GMT"/>
+				<outline text="const last                   = localStorage.getItem( &quot;rd-backups-last&quot; )" created="Fri, 31 Dec 2021 08:59:44 GMT"/>
+				<outline text="const lastbackup     = last !== null ? new Date( last ) : null" created="Fri, 31 Dec 2021 09:09:26 GMT"/>
+				<outline text="localStorage.setItem( &quot;rd-backups-last&quot;, new Date() )" created="Fri, 31 Dec 2021 05:27:01 GMT"/>
+				<outline text="" created="Fri, 31 Dec 2021 09:15:32 GMT"/>
 				<outline text="var     basepath       = localStorage.getItem( &quot;rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:33:03 GMT"/>
 				<outline text="basepath = string.trimLeading( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:36:39 GMT"/>
 				<outline text="basepath = string.trimTrailing( basepath, &quot;/&quot; )" created="Fri, 31 Dec 2021 03:38:12 GMT"/>
@@ -54,23 +59,30 @@
 					<outline text="dialog.alert( &quot;Unable to find one or more: rd-username, rd-backups-repository or rd-backups-path&quot; )" created="Fri, 24 Dec 2021 20:42:14 GMT"/>
 					</outline>
 				<outline text="} else {" created="Fri, 24 Dec 2021 20:42:15 GMT">
+					<outline text="var uploaded = 0" created="Fri, 31 Dec 2021 09:12:20 GMT"/>
 					<outline text="const message =  string.randomSnarkySlogan()" created="Fri, 24 Dec 2021 20:45:56 GMT"/>
 					<outline text="const hierarchy = file.getFileHierarchy()" created="Fri, 31 Dec 2021 03:23:29 GMT"/>
 					<outline text="for ( const group of [ &quot;privateFiles&quot;, &quot;publicFiles&quot; ] ) {" created="Fri, 31 Dec 2021 04:16:35 GMT">
 						<outline text="for ( const filename in hierarchy[ group ].subs ) {" created="Wed, 22 Dec 2021 19:51:40 GMT">
-							<outline text="const path = basepath + &quot;/&quot; + group + &quot;/&quot; + filename" created="Fri, 31 Dec 2021 03:35:09 GMT"/>
-							<outline text="const existing = github.download( username, repository, path )" created="Fri, 31 Dec 2021 05:18:56 GMT"/>
-							<outline text="const current = base64.decode( existing.content )" created="Fri, 31 Dec 2021 05:04:16 GMT"/>
-							<outline text="const data = file.readWholeFile( filename )" created="Fri, 31 Dec 2021 03:40:15 GMT"/>
-							<outline text="if ( data !== current ) {" created="Fri, 31 Dec 2021 05:06:06 GMT">
-								<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
-								<outline text="}" created="Fri, 31 Dec 2021 05:07:54 GMT"/>
+							<outline text="const info = file.getFileInfo( filename )" created="Fri, 31 Dec 2021 08:53:17 GMT"/>
+							<outline text="const modified = info[ &quot;whenModified&quot; ]" created="Fri, 31 Dec 2021 08:54:09 GMT"/>
+							<outline text="if ( lastbackup === null || modified &gt;= lastbackup ) {" created="Fri, 31 Dec 2021 08:55:04 GMT">
+								<outline text="const path = basepath + &quot;/&quot; + group + &quot;/&quot; + filename" created="Fri, 31 Dec 2021 03:35:09 GMT"/>
+								<outline text="const existing = github.download( username, repository, path )" created="Fri, 31 Dec 2021 05:18:56 GMT"/>
+								<outline text="const current = base64.decode( existing.content )" created="Fri, 31 Dec 2021 05:04:16 GMT"/>
+								<outline text="const data = file.readWholeFile( filename )" created="Fri, 31 Dec 2021 03:40:15 GMT"/>
+								<outline text="if ( data !== current ) {" created="Fri, 31 Dec 2021 05:06:06 GMT">
+									<outline text="const result = github.upload ( username, repository, path, data, message )" created="Fri, 24 Dec 2021 20:32:48 GMT" isComment="false"/>
+									<outline text="uploaded = uploaded + 1" created="Fri, 31 Dec 2021 09:12:39 GMT"/>
+									<outline text="}" created="Fri, 31 Dec 2021 05:07:54 GMT"/>
+									</outline>
+								<outline text="}" created="Fri, 31 Dec 2021 09:05:29 GMT"/>
 								</outline>
 							<outline text="}" created="Wed, 22 Dec 2021 19:53:23 GMT"/>
 							</outline>
 						<outline text="}" created="Fri, 31 Dec 2021 04:17:42 GMT"/>
 						</outline>
-					<outline text="dialog.alert( &quot;We probably backed up all your files to GitHub&quot; )" created="Fri, 31 Dec 2021 03:10:32 GMT"/>
+					<outline text="dialog.alert( &quot;We probably backed up &quot; + uploaded + &quot; files to GitHub&quot; )" created="Fri, 31 Dec 2021 03:10:32 GMT"/>
 					<outline text="}" created="Fri, 24 Dec 2021 20:34:25 GMT"/>
 					</outline>
 				</outline>
