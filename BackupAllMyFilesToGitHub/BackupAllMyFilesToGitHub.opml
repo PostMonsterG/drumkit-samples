@@ -9,7 +9,6 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
 		<dateModified>Fri, 31 Dec 2021 05:45:51 GMT</dateModified>
 		<expansionState>1,5,10,13,14,17</expansionState>
 		<lastCursor>2</lastCursor>
