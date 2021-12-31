@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>ConnectToGitHub</title>
+		<dateCreated>Fri, 31 Dec 2021 10:52:04 GMT</dateCreated>
+		<rd-repository>drumkit-samples</rd-repository>
+		<rd-path>ConnectToGitHub/ConnectToGitHub.opml</rd-path>
+		<rd-type>opml</rd-type>
+		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
+		<ownerName>Gary Teter</ownerName>
+		<ownerId>http://twitter.com/PostMonsterG</ownerId>
+		<urlUpdateSocket>ws://drummer.scripting.com:1232/</urlUpdateSocket>
+		<dateModified>Fri, 31 Dec 2021 10:56:30 GMT</dateModified>
+		<expansionState>1,3,5,6,9,15</expansionState>
+		<lastCursor>8</lastCursor>
+		</head>
+	<body>
+		<outline text="&lt;b&gt;Connect to GitHub&lt;/b&gt;" created="Fri, 24 Dec 2021 20:10:43 GMT">
+			<outline text="This connects Drummer to your GitHub account." created="Fri, 24 Dec 2021 20:10:57 GMT" isComment="true"/>
+			<outline text="&lt;b&gt;To use this&lt;/b&gt;" created="Fri, 31 Dec 2021 02:28:25 GMT" isComment="true">
+				<outline text="Select &lt;b&gt;Connect to GitHub &lt;/b&gt;from your scripts menu." created="Fri, 31 Dec 2021 02:28:33 GMT" isComment="true"/>
+				</outline>
+			<outline text="&lt;b&gt;To install this&lt;/b&gt;" created="Tue, 23 Nov 2021 16:23:24 GMT" isComment="true">
+				<outline text="&lt;b&gt;Open the latest version of this Drumkit in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:21:57 GMT">
+					<outline text="&lt;b&gt;File → Open URL...&lt;/b&gt;" created="Tue, 07 Dec 2021 08:24:20 GMT"/>
+					<outline text=" https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/ConnectToGitHub/ConnectToGitHub.opml " created="Tue, 07 Dec 2021 08:04:55 GMT" isComment="true"/>
+					</outline>
+				<outline text="&lt;b&gt;Add this Drumkit to your scripts menu in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:10:02 GMT" isComment="true">
+					<outline text="Select the entire outline, i.e., the above &lt;b&gt;Connect to GitHub &lt;/b&gt;node that contains all this" created="Mon, 22 Nov 2021 01:30:51 GMT" isComment="true"/>
+					<outline text="Copy it (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="true"/>
+					<outline text="&lt;b&gt;File → Special Files... → Scripts menu... &lt;/b&gt;" created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="true"/>
+					<outline text="Paste this outline (⌘V) " created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="true"/>
+					<outline text="There should be a new &lt;b&gt;Connect to GitHub&lt;/b&gt; entry in your scripts menu." created="Mon, 22 Nov 2021 01:33:34 GMT" isComment="true"/>
+					</outline>
+				</outline>
+			<outline text="//    &lt;i&gt;Here is the code&lt;/i&gt;" created="Tue, 23 Nov 2021 15:51:55 GMT">
+				<outline text="github.connectViaOauth()" created="Fri, 24 Dec 2021 19:08:36 GMT"/>
+				</outline>
+			</outline>
+		</body>
+	</opml>
