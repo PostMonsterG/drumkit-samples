@@ -1,7 +1,11 @@
 # Configure GitHub User Name
 
-This configures the user name we will use when uploading files to GitHub. It's required for the **Save File to GitHub** script.
+This configures the user name we will use when uploading files to GitHub. It's required for the **Save File to GitHub** and **Backup All My Files to GitHub** scripts.
 
+### To use this
+- Select <b>Configure GitHub User Name</b> from your scripts menu.
+- We will display a dialog box where you can view and edit the current value.
+  
 ### To install this
 
 #### Open the latest version of this Drumkit in Drummer
