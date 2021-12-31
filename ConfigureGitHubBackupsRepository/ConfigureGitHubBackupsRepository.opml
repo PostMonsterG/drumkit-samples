@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>ConfigureGitHubBackupsRepository</title>
+		<dateCreated>Fri, 31 Dec 2021 02:20:01 GMT</dateCreated>
+		<rd-repository>drumkit-samples</rd-repository>
+		<rd-path>ConfigureGitHubBackupsRepository/ConfigureGitHubBackupsRepository.opml</rd-path>
+		<rd-type>opml</rd-type>
+		<dateModified>Fri, 31 Dec 2021 05:40:08 GMT</dateModified>
+		<expansionState>1,4,7,8,11,19</expansionState>
+		<lastCursor>0</lastCursor>
+		</head>
+	<body>
+		<outline text="&lt;b&gt;Configure GitHub Backups Repository&lt;/b&gt;" created="Fri, 24 Dec 2021 20:10:43 GMT">
+			<outline text="This the repository we will use when backing up your files to GitHub." created="Fri, 24 Dec 2021 20:10:57 GMT" isComment="true"/>
+			<outline text="&lt;i&gt;Important:&lt;/i&gt; This script cannot tell, and will not warn you, if you upload private files to a public repository." created="Thu, 09 Dec 2021 19:09:01 GMT" isComment="true"/>
+			<outline text="&lt;b&gt;To use this&lt;/b&gt;" created="Fri, 31 Dec 2021 02:28:25 GMT" isComment="true">
+				<outline text="Select &lt;b&gt;Configure GitHub Backups Repository&lt;/b&gt; from your scripts menu." created="Fri, 31 Dec 2021 02:28:33 GMT" isComment="true"/>
+				<outline text="We will display a dialog box where you can view and edit the current value." created="Fri, 31 Dec 2021 03:05:31 GMT"/>
+				</outline>
+			<outline text="&lt;b&gt;To install this&lt;/b&gt;" created="Tue, 23 Nov 2021 16:23:24 GMT" isComment="true">
+				<outline text="&lt;b&gt;Open the latest version of this Drumkit in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:21:57 GMT">
+					<outline text="&lt;b&gt;File → Open URL...&lt;/b&gt;" created="Tue, 07 Dec 2021 08:24:20 GMT"/>
+					<outline text=" https://raw.githubusercontent.com/PostMonsterG/drumkit-samples/main/ConfigureGitHubBackupsRepository/ConfigureGitHubBackupsRepository.opml " created="Tue, 07 Dec 2021 08:04:55 GMT" isComment="true"/>
+					</outline>
+				<outline text="&lt;b&gt;Add this Drumkit to your scripts menu in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:10:02 GMT" isComment="true">
+					<outline text="Select the entire outline, i.e., the above &lt;b&gt;Configure GitHub Backups Repository &lt;/b&gt;node that contains all this" created="Mon, 22 Nov 2021 01:30:51 GMT" isComment="true"/>
+					<outline text="Copy it (⌘C)" created="Mon, 22 Nov 2021 01:34:09 GMT" isComment="true"/>
+					<outline text="&lt;b&gt;File → Special Files... → Scripts menu... &lt;/b&gt;" created="Sun, 21 Nov 2021 01:54:15 GMT" isComment="true"/>
+					<outline text="Paste this outline (⌘V) " created="Sun, 21 Nov 2021 01:55:14 GMT" isComment="true"/>
+					<outline text="There should be a new &lt;b&gt;Configure GitHub Backups Repository&lt;/b&gt; entry in your scripts menu." created="Mon, 22 Nov 2021 01:33:34 GMT" isComment="true"/>
+					</outline>
+				</outline>
+			<outline text="const repository = localStorage.getItem(&quot;rd-backups-repository&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT"/>
+			<outline text="const answer = dialog.ask( &quot;GitHub Backups Repository&quot;, repository, &quot;The repository to use for saving backups to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
+			<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT">
+				<outline text="localStorage.setItem( &quot;rd-backups-repository&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT"/>
+				<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT"/>
+				</outline>
+			</outline>
+		</body>
+	</opml>
