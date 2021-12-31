@@ -6,16 +6,17 @@
 		<rd-repository>drumkit-samples</rd-repository>
 		<rd-path>ConfigureGitHubUserName/ConfigureGitHubUserName.opml</rd-path>
 		<rd-type>opml</rd-type>
-		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
-		<ownerName>Gary Teter</ownerName>
-		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Mon, 27 Dec 2021 21:24:59 GMT</dateModified>
-		<expansionState>1,3,4,7,15</expansionState>
-		<lastCursor>5</lastCursor>
+		<dateModified>Fri, 31 Dec 2021 05:38:39 GMT</dateModified>
+		<expansionState>1,3,6,7,10,18</expansionState>
+		<lastCursor>16</lastCursor>
 		</head>
 	<body>
-		<outline text="&lt;b&gt;Configure GitHub user name&lt;/b&gt;" created="Fri, 24 Dec 2021 20:10:43 GMT">
-			<outline text="This configures the user name we will use when uploading files to GitHub." created="Fri, 24 Dec 2021 20:10:57 GMT" isComment="true"/>
+		<outline text="&lt;b&gt;Configure GitHub User Name&lt;/b&gt;" created="Fri, 24 Dec 2021 20:10:43 GMT">
+			<outline text="This  the user name we will use when saving or backing up files to GitHub." created="Fri, 24 Dec 2021 20:10:57 GMT" isComment="true"/>
+			<outline text="&lt;b&gt;To use this&lt;/b&gt;" created="Fri, 31 Dec 2021 02:28:25 GMT" isComment="true">
+				<outline text="Select &lt;b&gt;Configure GitHub User Name &lt;/b&gt;from your scripts menu." created="Fri, 31 Dec 2021 02:28:33 GMT" isComment="true"/>
+				<outline text="We will display a dialog box where you can view and edit the current value." created="Fri, 31 Dec 2021 03:05:31 GMT"/>
+				</outline>
 			<outline text="&lt;b&gt;To install this&lt;/b&gt;" created="Tue, 23 Nov 2021 16:23:24 GMT" isComment="true">
 				<outline text="&lt;b&gt;Open the latest version of this Drumkit in Drummer&lt;/b&gt;" created="Tue, 07 Dec 2021 08:21:57 GMT">
 					<outline text="&lt;b&gt;File → Open URL...&lt;/b&gt;" created="Tue, 07 Dec 2021 08:24:20 GMT"/>
@@ -30,7 +31,7 @@
 					</outline>
 				</outline>
 			<outline text="const username = localStorage.getItem(&quot;rd-username&quot;)" created="Fri, 24 Dec 2021 20:23:51 GMT"/>
-			<outline text="const answer = dialog.ask( &quot;GitHub user name&quot;, username, &quot;The user name to use for GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
+			<outline text="const  answer = dialog.ask( &quot;GitHub User Name&quot;, username, &quot;The user name to use when saving or backing up files to GitHub&quot; )" created="Fri, 24 Dec 2021 20:24:41 GMT"/>
 			<outline text="if ( answer !== undefined ) {" created="Fri, 24 Dec 2021 20:26:54 GMT">
 				<outline text="localStorage.setItem( &quot;rd-username&quot;, answer )" created="Fri, 24 Dec 2021 20:27:21 GMT"/>
 				<outline text="}" created="Fri, 24 Dec 2021 20:27:23 GMT"/>
