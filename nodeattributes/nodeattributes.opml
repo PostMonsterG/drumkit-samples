@@ -9,9 +9,9 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Sat, 28 May 2022 22:09:19 GMT</dateModified>
-		<expansionState>4</expansionState>
-		<lastCursor>5</lastCursor>
+		<dateModified>Sat, 28 May 2022 22:25:11 GMT</dateModified>
+		<expansionState>3,6,14,15,19,20,24,25,29,30,35</expansionState>
+		<lastCursor>0</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;OPML 2.0 spec&lt;/a&gt;" created="Mon, 06 Dec 2021 05:45:03 GMT" >
@@ -40,7 +40,7 @@
 						<outline text="Mon, 06 Dec 2021 05:54:17 GMT" created="Sat, 19 Mar 2022 02:00:13 GMT" />
 						</outline>
 					</outline>
-				<outline text="ownerName " created="Mon, 06 Dec 2021 05:51:52 GMT" >
+				<outline text="ownerName" created="Mon, 06 Dec 2021 05:51:52 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:53:32 GMT" >
 						<outline text="is a string, the owner of the document." created="Mon, 06 Dec 2021 05:51:53 GMT" />
 						</outline>
@@ -48,7 +48,7 @@
 						<outline text="Dave Winer" created="Sat, 19 Mar 2022 02:06:57 GMT" />
 						</outline>
 					</outline>
-				<outline text="ownerEmail " created="Mon, 06 Dec 2021 05:51:56 GMT" >
+				<outline text="ownerEmail" created="Mon, 06 Dec 2021 05:51:56 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:53:36 GMT" >
 						<outline text="is a string, the email address of the owner of the document." created="Mon, 06 Dec 2021 05:51:58 GMT" />
 						</outline>
@@ -56,7 +56,7 @@
 						<outline text="dave@scripting.com" created="Sat, 28 May 2022 21:36:09 GMT" />
 						</outline>
 					</outline>
-				<outline text="ownerId " created="Mon, 06 Dec 2021 05:52:01 GMT" >
+				<outline text="ownerId" created="Mon, 06 Dec 2021 05:52:01 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:53:41 GMT" >
 						<outline text="is the http address of a web page that contains information that allows a human reader to communicate with the author of the document via email or other means. It also may be used to identify the author. No two authors have the same ownerId." created="Mon, 06 Dec 2021 05:52:02 GMT" />
 						</outline>
@@ -64,7 +64,7 @@
 						<outline text="http://twitter.com/davewiner" created="Sat, 19 Mar 2022 02:07:18 GMT" />
 						</outline>
 					</outline>
-				<outline text="docs " created="Mon, 06 Dec 2021 05:52:05 GMT" >
+				<outline text="docs" created="Mon, 06 Dec 2021 05:52:05 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:53:45 GMT" >
 						<outline text="is the http address of documentation for the format used in the OPML file. It's probably a pointer to &lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;this page&lt;/a&gt; for people who might stumble across the file on a web server 25 years from now and wonder what it is." created="Mon, 06 Dec 2021 05:52:07 GMT" />
 						</outline>
@@ -80,7 +80,7 @@
 						<outline text="2,6,8,9,11,12,14,16,18,20,21,31,32,34,35,36,37,39,40,42,46,49,51,52,54,56,57,59,62,63,64,66 " created="Sat, 19 Mar 2022 02:05:07 GMT" />
 						</outline>
 					</outline>
-				<outline text="vertScrollState " created="Mon, 06 Dec 2021 05:52:14 GMT" >
+				<outline text="vertScrollState" created="Mon, 06 Dec 2021 05:52:14 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:06 GMT" >
 						<outline text="is a number, saying which line of the outline is displayed on the top line of the window. This number is calculated with the expansion state already applied." created="Mon, 06 Dec 2021 05:52:15 GMT" />
 						</outline>
@@ -88,7 +88,7 @@
 						<outline text="1" created="Sat, 28 May 2022 21:15:41 GMT" />
 						</outline>
 					</outline>
-				<outline text="windowTop " created="Mon, 06 Dec 2021 05:52:18 GMT" >
+				<outline text="windowTop" created="Mon, 06 Dec 2021 05:52:18 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:12 GMT" >
 						<outline text="is a number, the pixel location of the top edge of the window." created="Mon, 06 Dec 2021 05:52:19 GMT" />
 						</outline>
@@ -96,7 +96,7 @@
 						<outline text="106" created="Sat, 28 May 2022 21:15:41 GMT" />
 						</outline>
 					</outline>
-				<outline text="windowLeft " created="Mon, 06 Dec 2021 05:52:22 GMT" >
+				<outline text="windowLeft" created="Mon, 06 Dec 2021 05:52:22 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:16 GMT" >
 						<outline text="is a number, the pixel location of the left edge of the window." created="Mon, 06 Dec 2021 05:52:23 GMT" />
 						</outline>
@@ -121,7 +121,7 @@
 						</outline>
 					</outline>
 				</outline>
-			<outline text="" created="Mon, 06 Dec 2021 05:52:53 GMT" >
+			<outline text="Outline attributes" created="Mon, 06 Dec 2021 05:52:53 GMT" >
 				<outline text="text" created="Mon, 06 Dec 2021 05:53:14 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:49 GMT" >
 						<outline text="The text attribute is always required. " created="Mon, 06 Dec 2021 05:53:24 GMT" />
@@ -131,7 +131,7 @@
 						<outline text="Alaska" created="Sat, 28 May 2022 21:15:41 GMT" />
 						</outline>
 					</outline>
-				<outline text="type " created="Mon, 06 Dec 2021 05:54:04 GMT" >
+				<outline text="type" created="Mon, 06 Dec 2021 05:54:04 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:54 GMT" >
 						<outline text="is a string, it says how the other attributes of the outline are interpreted." created="Mon, 06 Dec 2021 05:54:07 GMT" />
 						</outline>
@@ -141,7 +141,7 @@
 						<outline text="rss" created="Sat, 19 Mar 2022 02:02:45 GMT" />
 						</outline>
 					</outline>
-				<outline text="isComment " created="Mon, 06 Dec 2021 05:54:11 GMT" >
+				<outline text="isComment" created="Mon, 06 Dec 2021 05:54:11 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:54:58 GMT" >
 						<outline text="is a string, either &quot;true&quot; or &quot;false&quot;, indicating whether the outline is commented or not. By convention if an outline is commented, all subordinate outlines are considered to also be commented. If it's not present, the value is false." created="Mon, 06 Dec 2021 05:54:12 GMT" />
 						</outline>
@@ -149,7 +149,7 @@
 						<outline text="true" created="Sat, 19 Mar 2022 01:59:41 GMT" />
 						</outline>
 					</outline>
-				<outline text="isBreakpoint " created="Mon, 06 Dec 2021 05:54:14 GMT" >
+				<outline text="isBreakpoint" created="Mon, 06 Dec 2021 05:54:14 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:55:04 GMT" >
 						<outline text="is a string, either &quot;true&quot; or &quot;false&quot;, indicating whether a breakpoint is set on this outline. This attribute is mainly necessary for outlines used to edit scripts. If it's not present, the value is false." created="Mon, 06 Dec 2021 05:54:15 GMT" />
 						</outline>
@@ -157,7 +157,7 @@
 						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
 						</outline>
 					</outline>
-				<outline text="created " created="Mon, 06 Dec 2021 05:54:17 GMT" >
+				<outline text="created" created="Mon, 06 Dec 2021 05:54:17 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 01:55:13 GMT" >
 						<outline text="is the date-time that the outline node was created." created="Mon, 06 Dec 2021 05:54:19 GMT" />
 						</outline>
