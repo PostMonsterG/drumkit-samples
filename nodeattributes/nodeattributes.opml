@@ -9,9 +9,9 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Sat, 28 May 2022 22:25:11 GMT</dateModified>
+		<dateModified>Sat, 28 May 2022 22:35:19 GMT</dateModified>
 		<expansionState>3,6,14,15,19,20,24,25,29,30,35</expansionState>
-		<lastCursor>0</lastCursor>
+		<lastCursor>28</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;OPML 2.0 spec&lt;/a&gt;" created="Mon, 06 Dec 2021 05:45:03 GMT" >
@@ -604,6 +604,16 @@
 		<outline text="Notes" created="Sat, 28 May 2022 21:55:08 GMT" >
 			<outline text="All date-times conform to the Date and Time Specification of &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc822&quot;&gt;RFC 822&lt;/a&gt;, with the exception that the year may be expressed with two characters or four characters (four preferred)" created="Sat, 28 May 2022 21:37:51 GMT" />
 			<outline text="The value of type attributes are not case-sensitive, that is type=&quot;LINK&quot; has the same meaning as type=&quot;link&quot;   " created="Sat, 28 May 2022 21:55:10 GMT" />
+			</outline>
+		<outline text="Acknowledgements " created="Sat, 28 May 2022 22:32:20 GMT" >
+			<outline text="OPML 2.0 spec" created="Sat, 28 May 2022 22:34:20 GMT" >
+				<outline text="© Copyright 2000 UserLand Software, Inc. All Rights Reserved." created="Sat, 28 May 2022 22:33:40 GMT" />
+				<outline text="© Copyright 2006-2007 Scripting News, Inc. All Rights Reserved." created="Sat, 28 May 2022 22:34:29 GMT" />
+				<outline text="UserLand Software, Inc. and Scripting News, Inc. are refererred to in the following as &quot;the Companies.&quot;" created="Sat, 28 May 2022 22:34:34 GMT" />
+				<outline text="This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and these paragraphs are included on all such copies and derivative works.&quot;" />
+				<outline text="This document may not be modified in any way, such as by removing the copyright notice or references to the Companies or other organizations. Further, while these copyright restrictions apply to the written OPML specification, no claim of ownership is made by the Companies to the format it describes. Any party may, for commercial or non-commercial purposes, implement this format without royalty or license fee to the Companies. The limited permissions granted herein are perpetual and will not be revoked by the Companies or their successors or assigns.&quot;" />
+				<outline text="This document and the information contained herein is provided on an &quot;AS IS&quot; basis and THE COMPANIES DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.&quot;" created="Sat, 28 May 2022 22:34:27 GMT" />
+				</outline>
 			</outline>
 		</body>
 	</opml>
