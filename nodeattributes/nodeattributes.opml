@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<opml version="2.0">
+	<head>
+		<title>nodeattributes</title>
+		<dateCreated>Mon, 06 Dec 2021 01:44:03 GMT</dateCreated>
+		<rd-repository>drumkit-samples</rd-repository>
+		<rd-path>nodeattributes/nodeattributes.opml</rd-path>
+		<rd-type>opml</rd-type>
+		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
+		<ownerName>Gary Teter</ownerName>
+		<ownerId>http://twitter.com/PostMonsterG</ownerId>
+		<dateModified>Sat, 28 May 2022 22:09:19 GMT</dateModified>
+		<expansionState>4</expansionState>
+		<lastCursor>5</lastCursor>
+		</head>
+	<body>
+		<outline text="&lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;OPML 2.0 spec&lt;/a&gt;" created="Mon, 06 Dec 2021 05:45:03 GMT" >
+			<outline text="Head elements" created="Mon, 06 Dec 2021 05:45:06 GMT" >
+				<outline text="title" created="Mon, 06 Dec 2021 05:51:29 GMT" isComment="false" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:51:58 GMT" >
+						<outline text="is the title of the document" created="Mon, 06 Dec 2021 05:51:40 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:08:20 GMT" >
+						<outline text="This is the blog part" created="Sat, 19 Mar 2022 02:08:22 GMT" />
+						</outline>
+					</outline>
+				<outline text="dateCreated " created="Mon, 06 Dec 2021 05:51:44 GMT" >
+					<outline text="Description" created="Mon, 06 Dec 2021 05:51:45 GMT" >
+						<outline text="is a date-time, indicating when the document was created." created="Sat, 19 Mar 2022 01:52:31 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:00:11 GMT" >
+						<outline text="Mon, 06 Dec 2021 05:54:17 GMT" created="Sat, 19 Mar 2022 02:00:13 GMT" />
+						</outline>
+					</outline>
+				<outline text="dateModified " created="Mon, 06 Dec 2021 05:51:48 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:27 GMT" >
+						<outline text="is a date-time, indicating when the document was last modified." created="Mon, 06 Dec 2021 05:51:49 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:00:11 GMT" >
+						<outline text="Mon, 06 Dec 2021 05:54:17 GMT" created="Sat, 19 Mar 2022 02:00:13 GMT" />
+						</outline>
+					</outline>
+				<outline text="ownerName " created="Mon, 06 Dec 2021 05:51:52 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:32 GMT" >
+						<outline text="is a string, the owner of the document." created="Mon, 06 Dec 2021 05:51:53 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:06:55 GMT" >
+						<outline text="Dave Winer" created="Sat, 19 Mar 2022 02:06:57 GMT" />
+						</outline>
+					</outline>
+				<outline text="ownerEmail " created="Mon, 06 Dec 2021 05:51:56 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:36 GMT" >
+						<outline text="is a string, the email address of the owner of the document." created="Mon, 06 Dec 2021 05:51:58 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:36:02 GMT" >
+						<outline text="dave@scripting.com" created="Sat, 28 May 2022 21:36:09 GMT" />
+						</outline>
+					</outline>
+				<outline text="ownerId " created="Mon, 06 Dec 2021 05:52:01 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:41 GMT" >
+						<outline text="is the http address of a web page that contains information that allows a human reader to communicate with the author of the document via email or other means. It also may be used to identify the author. No two authors have the same ownerId." created="Mon, 06 Dec 2021 05:52:02 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:07:17 GMT" >
+						<outline text="http://twitter.com/davewiner" created="Sat, 19 Mar 2022 02:07:18 GMT" />
+						</outline>
+					</outline>
+				<outline text="docs " created="Mon, 06 Dec 2021 05:52:05 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:45 GMT" >
+						<outline text="is the http address of documentation for the format used in the OPML file. It's probably a pointer to &lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;this page&lt;/a&gt; for people who might stumble across the file on a web server 25 years from now and wonder what it is." created="Mon, 06 Dec 2021 05:52:07 GMT" />
+						</outline>
+					<outline text="Example" created="Mon, 06 Dec 2021 06:15:01 GMT" >
+						<outline text="http://opml.org/spec2.opml" created="Mon, 06 Dec 2021 06:14:47 GMT" />
+						</outline>
+					</outline>
+				<outline text="expansionState" created="Mon, 06 Dec 2021 05:52:10 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:53:57 GMT" >
+						<outline text="is a comma-separated list of line numbers that are expanded. The line numbers in the list tell you which headlines to expand. The order is important. For each element in the list, X, starting at the first summit, navigate flatdown X times and expand. Repeat for each element in the list." created="Mon, 06 Dec 2021 05:52:11 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:05:05 GMT" >
+						<outline text="2,6,8,9,11,12,14,16,18,20,21,31,32,34,35,36,37,39,40,42,46,49,51,52,54,56,57,59,62,63,64,66 " created="Sat, 19 Mar 2022 02:05:07 GMT" />
+						</outline>
+					</outline>
+				<outline text="vertScrollState " created="Mon, 06 Dec 2021 05:52:14 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:06 GMT" >
+						<outline text="is a number, saying which line of the outline is displayed on the top line of the window. This number is calculated with the expansion state already applied." created="Mon, 06 Dec 2021 05:52:15 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="1" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="windowTop " created="Mon, 06 Dec 2021 05:52:18 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:12 GMT" >
+						<outline text="is a number, the pixel location of the top edge of the window." created="Mon, 06 Dec 2021 05:52:19 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="106" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="windowLeft " created="Mon, 06 Dec 2021 05:52:22 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:16 GMT" >
+						<outline text="is a number, the pixel location of the left edge of the window." created="Mon, 06 Dec 2021 05:52:23 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="106" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="windowBottom" created="Mon, 06 Dec 2021 05:52:25 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:19 GMT" >
+						<outline text=" is a number, the pixel location of the bottom edge of the window." created="Mon, 06 Dec 2021 05:52:26 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="558" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="windowRight" created="Mon, 06 Dec 2021 05:52:29 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:29 GMT" >
+						<outline text=" is a number, the pixel location of the right edge of the window." created="Mon, 06 Dec 2021 05:52:30 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="479" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="" created="Mon, 06 Dec 2021 05:52:53 GMT" >
+				<outline text="text" created="Mon, 06 Dec 2021 05:53:14 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:49 GMT" >
+						<outline text="The text attribute is always required. " created="Mon, 06 Dec 2021 05:53:24 GMT" />
+						<outline text="Text attributes may contain encoded HTML markup " created="Sat, 28 May 2022 21:06:08 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="Alaska" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="type " created="Mon, 06 Dec 2021 05:54:04 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:54 GMT" >
+						<outline text="is a string, it says how the other attributes of the outline are interpreted." created="Mon, 06 Dec 2021 05:54:07 GMT" />
+						</outline>
+					<outline text="Examples" created="Sat, 19 Mar 2022 02:02:30 GMT" >
+						<outline text="include" created="Sat, 19 Mar 2022 02:02:33 GMT" />
+						<outline text="link" created="Sat, 19 Mar 2022 02:02:44 GMT" />
+						<outline text="rss" created="Sat, 19 Mar 2022 02:02:45 GMT" />
+						</outline>
+					</outline>
+				<outline text="isComment " created="Mon, 06 Dec 2021 05:54:11 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:54:58 GMT" >
+						<outline text="is a string, either &quot;true&quot; or &quot;false&quot;, indicating whether the outline is commented or not. By convention if an outline is commented, all subordinate outlines are considered to also be commented. If it's not present, the value is false." created="Mon, 06 Dec 2021 05:54:12 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 01:59:38 GMT" >
+						<outline text="true" created="Sat, 19 Mar 2022 01:59:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="isBreakpoint " created="Mon, 06 Dec 2021 05:54:14 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:55:04 GMT" >
+						<outline text="is a string, either &quot;true&quot; or &quot;false&quot;, indicating whether a breakpoint is set on this outline. This attribute is mainly necessary for outlines used to edit scripts. If it's not present, the value is false." created="Mon, 06 Dec 2021 05:54:15 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="created " created="Mon, 06 Dec 2021 05:54:17 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:55:13 GMT" >
+						<outline text="is the date-time that the outline node was created." created="Mon, 06 Dec 2021 05:54:19 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:00:11 GMT" >
+						<outline text="Mon, 06 Dec 2021 05:54:17 GMT" created="Sat, 19 Mar 2022 02:00:13 GMT" />
+						</outline>
+					</outline>
+				<outline text="category" created="Mon, 06 Dec 2021 05:54:21 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:55:20 GMT" >
+						<outline text=" is a string of comma-separated slash-delimited category strings, in the format defined by the RSS 2.0 category element. To represent a &quot;tag,&quot; the category string should contain no slashes. " created="Mon, 06 Dec 2021 05:54:22 GMT" />
+						</outline>
+					<outline text="Examples" created="Mon, 06 Dec 2021 05:55:12 GMT" >
+						<outline text="/Boston/Weather" created="Mon, 06 Dec 2021 05:55:09 GMT" />
+						<outline text="/Harvard/Berkman,/Politics" created="Mon, 06 Dec 2021 05:55:26 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="Node types" created="Tue, 07 Dec 2021 06:18:30 GMT" >
+				<outline text="include" created="Mon, 06 Dec 2021 06:02:52 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:55:31 GMT" >
+						<outline text="An outline element whose type is include must have a url attribute  that points to the OPML file to be included. The text attribute is, as usual, what's displayed in the outliner, and it's also what is displayed in an HTML rendering." created="Mon, 06 Dec 2021 06:11:16 GMT" />
+						<outline text="include always points to an OPML file" created="Sat, 28 May 2022 21:10:43 GMT" />
+						</outline>
+					<outline text="Required attributes" created="Sat, 19 Mar 2022 01:55:57 GMT" >
+						<outline text="url" created="Mon, 06 Dec 2021 06:03:00 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:56:17 GMT" >
+								<outline text="points to the OPML file to be included" created="Sat, 19 Mar 2022 01:56:20 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 19 Mar 2022 02:17:05 GMT" >
+								<outline text="http://hosting.opml.org/dave/florida.opml" created="Sat, 19 Mar 2022 02:17:08 GMT" />
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				<outline text="link" created="Mon, 06 Dec 2021 06:02:26 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:55:46 GMT" >
+						<outline text="An outline element whose type is linkmust have a url attribute whose value is an http address. The text element is, as usual, what's displayed in the outliner; it's also what is displayed in an HTML rendering. " created="Sat, 28 May 2022 21:11:52 GMT" />
+						<outline text="When a link element is expanded in an outliner, if the address ends with &quot;.opml&quot;, the outline expands in place. This is called inclusion. " created="Mon, 06 Dec 2021 06:10:32 GMT" />
+						<outline text="The difference between link and include is that link may point to something that is displayed in a web browser, and include always points to an OPML file. " created="Thu, 30 Dec 2021 17:49:41 GMT" />
+						</outline>
+					<outline text="Required attributes" created="Sat, 19 Mar 2022 01:55:57 GMT" >
+						<outline text="url" created="Mon, 06 Dec 2021 06:03:00 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:56:17 GMT" >
+								<outline text="value is an http address" created="Sat, 19 Mar 2022 01:56:20 GMT" />
+								<outline text="If the address does not end with &quot;.opml&quot; the link is assumed to point to something that can be displayed in a web browser. " created="Sat, 28 May 2022 21:13:20 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="http://davenet.opml.org/index.opml" created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				<outline text="rss" created="Mon, 06 Dec 2021 05:59:38 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 01:57:30 GMT" >
+						<outline text="A subscription list is a possibly multiple-level list of subscriptions to feeds. Each sub-element of the body of the OPML document is a node of type rss or an outline element that contains nodes of type rss. " created="Mon, 06 Dec 2021 06:09:50 GMT" />
+						</outline>
+					<outline text="Required attributes" created="Sat, 19 Mar 2022 01:58:59 GMT" >
+						<outline text="title" created="Mon, 06 Dec 2021 06:01:25 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:39 GMT" >
+								<outline text="is probably the same as text, it should not be omitted. " created="Mon, 06 Dec 2021 06:09:02 GMT" />
+								<outline text="title contains the top-level title element from the feed" created="Sat, 28 May 2022 21:08:36 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="Wired News" created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						<outline text="xmlUrl" created="Mon, 06 Dec 2021 06:00:49 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:25 GMT" >
+								<outline text="is the http address of the feed" created="Mon, 06 Dec 2021 06:07:36 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="http://www.wired.com/news_drop/netcenter/netcenter.rdf" created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						</outline>
+					<outline text="Additional attributes" created="Sat, 19 Mar 2022 01:57:37 GMT" >
+						<outline text="description" created="Mon, 06 Dec 2021 06:07:54 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:28 GMT" >
+								<outline text=" is the top-level description element from the feed" created="Mon, 06 Dec 2021 06:08:07 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="Technology, and the way we do business, is changing the world we know. Wired News is a technology - and business-oriented news service feeding an intelligent, discerning audience. What role does technology play in the day-to-day living of your life? Wired News tells you. How has evolving technology changed the face of the international business world? Wired News puts you in the picture." created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						<outline text="htmlUrl" created="Mon, 06 Dec 2021 06:01:08 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:32 GMT" >
+								<outline text="is the top-level link element" created="Mon, 06 Dec 2021 06:08:35 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="http://www.wired.com/" created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						<outline text="language" created="Mon, 06 Dec 2021 06:01:15 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:35 GMT" >
+								<outline text="is the value of the top-level language element" created="Mon, 06 Dec 2021 06:08:44 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="unknown" created="Sat, 28 May 2022 21:15:41 GMT" />
+								</outline>
+							</outline>
+						<outline text="version" created="Mon, 06 Dec 2021 06:01:30 GMT" >
+							<outline text="Description" created="Sat, 19 Mar 2022 01:58:48 GMT" >
+								<outline text="varies depending on the version of RSS that's being supplied. It was invented at a time when we thought there might be some processors that only handled certain versions, but that hasn't turned out to be a major issue. The values it can have are: RSS1 for RSS 1.0; RSS for 0.91, 0.92 or 2.0; scriptingNews for scriptingNews format. There are no known values for Atom feeds, but they certainly could be provided." created="Mon, 06 Dec 2021 06:09:23 GMT" />
+								</outline>
+							<outline text="Examples" created="Sat, 28 May 2022 21:15:28 GMT" >
+								<outline text="RSS1" created="Sat, 28 May 2022 21:15:41 GMT" />
+								<outline text="RSS" created="Sat, 28 May 2022 21:17:13 GMT" />
+								<outline text="scriptingNews " created="Sat, 28 May 2022 21:17:44 GMT" />
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="Drummer" created="Sat, 19 Mar 2022 02:28:55 GMT" >
+			<outline text="Node attributes" created="Fri, 31 Dec 2021 14:33:56 GMT" >
+				<outline text="flSubMenu" created="Fri, 31 Dec 2021 14:34:03 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:24:45 GMT" >
+						<outline text="You turn a command into a sub-menu by adding a flSubMenu attribute to the outline node. All of its subs are then commands, the the next-level subs are the scripts that run when the command is selected. " created="Fri, 31 Dec 2021 14:34:08 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="font" created="Sun, 27 Mar 2022 20:06:10 GMT" >
+					<outline text="Description" created="Sun, 27 Mar 2022 20:06:23 GMT" >
+						<outline text="If you change them and then reload Drummer, the font should change for the outline." created="Sun, 27 Mar 2022 20:07:54 GMT" />
+						<outline text="In my coding outline, I changed the font to Monaco, fontSize to 13, lineHeight to 20." created="Sun, 27 Mar 2022 20:06:44 GMT" />
+						<outline text="The fonts are web fonts, or Ubuntu (since Drummer loads that font automatically)." created="Sun, 27 Mar 2022 20:07:51 GMT" />
+						</outline>
+					<outline text="Example" created="Sun, 27 Mar 2022 20:06:27 GMT" >
+						<outline text="Monaco" created="Sun, 27 Mar 2022 20:06:48 GMT" />
+						</outline>
+					</outline>
+				<outline text="fontSize" created="Sun, 27 Mar 2022 20:06:16 GMT" >
+					<outline text="Description" created="Sun, 27 Mar 2022 20:08:38 GMT" >
+						<outline text="If you change them and then reload Drummer, the font should change for the outline." created="Sun, 27 Mar 2022 20:07:54 GMT" />
+						<outline text="In my coding outline, I changed the font to Monaco, fontSize to 13, lineHeight to 20." created="Sun, 27 Mar 2022 20:06:44 GMT" />
+						</outline>
+					<outline text="Example" created="Sun, 27 Mar 2022 20:06:51 GMT" >
+						<outline text="13" created="Sun, 27 Mar 2022 20:06:55 GMT" />
+						</outline>
+					</outline>
+				<outline text="lineHeight" created="Sun, 27 Mar 2022 20:06:10 GMT" >
+					<outline text="Description" created="Sun, 27 Mar 2022 20:08:38 GMT" >
+						<outline text="If you change them and then reload Drummer, the font should change for the outline." created="Sun, 27 Mar 2022 20:07:54 GMT" />
+						<outline text="In my coding outline, I changed the font to Monaco, fontSize to 13, lineHeight to 20." created="Sun, 27 Mar 2022 20:06:44 GMT" />
+						</outline>
+					<outline text="Example" created="Sun, 27 Mar 2022 20:07:00 GMT" >
+						<outline text="20" created="Sun, 27 Mar 2022 20:07:05 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="HTML tags available for preview" created="Sat, 08 Jan 2022 22:40:29 GMT" >
+				<outline text="b, strong, i, em, a, img, strike, del" created="Sat, 19 Mar 2022 02:26:03 GMT" />
+				</outline>
+			<outline text="Node types with icons" created="Sun, 19 Dec 2021 18:53:18 GMT" >
+				<outline text="calendar" created="Mon, 20 Dec 2021 00:49:59 GMT" type="calendar" />
+				<outline text="code" created="Mon, 20 Dec 2021 00:42:56 GMT" type="code" />
+				<outline text="css" created="Sun, 19 Dec 2021 20:19:33 GMT" type="css" />
+				<outline text="discusstree" created="Mon, 20 Dec 2021 00:44:38 GMT" type="discusstree" />
+				<outline text="home" created="Mon, 20 Dec 2021 00:45:01 GMT" type="home" />
+				<outline text="html" created="Sun, 19 Dec 2021 18:54:15 GMT" type="html" />
+				<outline text="icon-user" created="Mon, 20 Dec 2021 00:46:38 GMT" type="icon-user" />
+				<outline text="idea" created="Mon, 20 Dec 2021 00:50:47 GMT" type="idea" />
+				<outline text="include" created="Mon, 20 Dec 2021 00:47:06 GMT" type="include" />
+				<outline text="link" created="Mon, 20 Dec 2021 00:47:21 GMT" type="link" />
+				<outline text="markdown" created="Sun, 19 Dec 2021 18:54:02 GMT" type="markdown" />
+				<outline text="outline" created="Mon, 20 Dec 2021 00:47:54 GMT" type="outline" />
+				<outline text="page" created="Mon, 20 Dec 2021 23:35:14 GMT" type="page" />
+				<outline text="photo" created="Mon, 20 Dec 2021 00:48:16 GMT" type="photo" />
+				<outline text="profile" created="Mon, 20 Dec 2021 00:49:43 GMT" type="profile" />
+				<outline text="rss" created="Mon, 20 Dec 2021 00:48:57 GMT" type="rss" />
+				<outline text="thread" created="Mon, 20 Dec 2021 00:49:12 GMT" type="thread" />
+				<outline text="thumblist" created="Mon, 20 Dec 2021 00:49:26 GMT" type="thumblist" />
+				<outline text="tweet" created="Mon, 20 Dec 2021 00:50:33 GMT" type="tweet" />
+				<outline text="twitterFriend" created="Mon, 20 Dec 2021 00:51:08 GMT" type="twitterFriend" />
+				<outline text="word" created="Mon, 20 Dec 2021 00:55:34 GMT" type="word" />
+				</outline>
+			</outline>
+		<outline text="Old School" created="Mon, 06 Dec 2021 01:44:49 GMT" isComment="false" >
+			<outline text="Head elements" created="Mon, 06 Dec 2021 01:44:03 GMT" >
+				<outline text="copyright" created="Mon, 06 Dec 2021 01:45:59 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:27 GMT" >
+						<outline text="the copyright notice that appears in the page footer." created="Mon, 06 Dec 2021 01:49:07 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="description" created="Mon, 06 Dec 2021 01:47:52 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:32 GMT" >
+						<outline text="the description of your blog, appears under the title at the top of each page, and other places" created="Mon, 06 Dec 2021 01:48:56 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="timeZoneOffset" created="Mon, 06 Dec 2021 01:48:28 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:35 GMT" >
+						<outline text="the difference between the time where you are and GMT (see below). " created="Mon, 06 Dec 2021 01:49:55 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="title" created="Mon, 06 Dec 2021 01:45:19 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:43 GMT" >
+						<outline text="the title of your blog, appears in various places in the template" created="Mon, 06 Dec 2021 01:48:49 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlAboutOpml" created="Mon, 06 Dec 2021 01:48:14 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:46 GMT" >
+						<outline text="the URL of the outline that is displayed in the About panel of your blog" created="Mon, 06 Dec 2021 01:49:41 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlBlogWebsite" created="Mon, 06 Dec 2021 01:48:35 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:50 GMT" >
+						<outline text="if you're hosting a front-end for the blog, on your own site, with your URL, this is that address (see below)" created="Mon, 06 Dec 2021 01:50:04 GMT" />
+						<outline text="In Drummer, your blogf file must have a head-level urlBlogWebsite attribute, if not oldSchool.getCursorLink returns undefined. " created="Wed, 23 Mar 2022 19:42:20 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlGlossary" created="Mon, 06 Dec 2021 01:48:22 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:20:57 GMT" >
+						<outline text="the URL of the glossary (see below)" created="Mon, 06 Dec 2021 01:49:49 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlHeaderImage" created="Mon, 06 Dec 2021 01:48:03 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:02 GMT" >
+						<outline text="the web address of header image for the site" created="Mon, 06 Dec 2021 01:49:19 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlHomePageTemplate" created="Mon, 06 Dec 2021 01:48:10 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:09 GMT" >
+						<outline text="the address of the custom template for your home page" created="Mon, 06 Dec 2021 01:49:32 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlLinkblogJson" created="Mon, 06 Dec 2021 01:45:52 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:17 GMT" >
+						<outline text="for the Links tab of your blog (see below)" created="Mon, 06 Dec 2021 01:50:12 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlTemplate" created="Mon, 06 Dec 2021 01:48:06 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:24 GMT" >
+						<outline text="the address of your custom template" created="Mon, 06 Dec 2021 01:49:26 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="Node types for posts" created="Tue, 07 Dec 2021 06:18:19 GMT" >
+				<outline text="link" created="Tue, 07 Dec 2021 06:17:38 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:28:41 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:46 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:28:48 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:51 GMT" />
+						</outline>
+					</outline>
+				<outline text="markdown" created="Tue, 07 Dec 2021 06:17:30 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:28:41 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:46 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:28:48 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:51 GMT" />
+						</outline>
+					</outline>
+				<outline text="outline" created="Tue, 07 Dec 2021 06:17:45 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:28:41 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:46 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:28:48 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:51 GMT" />
+						</outline>
+					</outline>
+				<outline text="page" created="Tue, 07 Dec 2021 06:32:53 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:28:26 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:30 GMT" />
+						</outline>
+					<outline text="Required attributes" created="Sat, 28 May 2022 21:28:32 GMT" >
+						<outline text="relpath" created="Wed, 08 Dec 2021 06:59:35 GMT" >
+							<outline text="Description" created="Sat, 28 May 2022 21:28:41 GMT" >
+								<outline text="TK" created="Sat, 28 May 2022 21:28:46 GMT" />
+								</outline>
+							<outline text="Example" created="Sat, 28 May 2022 21:28:48 GMT" >
+								<outline text="TK" created="Sat, 28 May 2022 21:28:51 GMT" />
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				<outline text="tweet" created="Tue, 07 Dec 2021 06:18:10 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:28:41 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:46 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:28:48 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:28:51 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			<outline text="Node attributes" created="Mon, 06 Dec 2021 01:44:44 GMT" >
+				<outline text="collapse" created="Tue, 07 Dec 2021 06:33:16 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:30 GMT" >
+						<outline text="Add this to a headline with subs. If present and true, the subs will be collapse initially when displayed for the reader. " created="Tue, 07 Dec 2021 06:33:16 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="description" created="Mon, 06 Dec 2021 01:51:03 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:34 GMT" >
+						<outline text="added to the title line of a titled post, it will be included in the metadata for the page, so it will be visible to readers on Twitter and Facebook, when the page is linked to" created="Mon, 06 Dec 2021 01:51:06 GMT" />
+						<outline text="Attach this to the title headline of a titled post. It's the description of the Twitter and Facebook metadata in the page for the post. Twitter and Facebook will pick it up when you link to the story." created="Tue, 07 Dec 2021 06:33:13 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="In 2022 feeds still work, that's the good news. The bad news is that the feeds have same junk in them that web pages do." created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="enclosure" created="Mon, 06 Dec 2021 01:50:25 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:41 GMT" >
+						<outline text="the HTTP address of an MP3 file, a podcast. Drummer automatically fills in the other data that will be needed to build the enclosure element for the podcast" created="Mon, 06 Dec 2021 01:50:29 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:27:48 GMT" >
+						<outline text="http://example.com/podcast.mp3" created="Sat, 19 Mar 2022 02:27:50 GMT" />
+						</outline>
+					</outline>
+				<outline text="flBulletedSubs" created="Mon, 06 Dec 2021 01:51:27 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:45 GMT" >
+						<outline text="Add this to a headline with subs. When viewing the page the reader will see bullets next to each of the subs. " created="Tue, 07 Dec 2021 06:33:15 GMT" />
+						<outline text="if true, and the headline has subs, they appear with a bullet character in front of each" created="Mon, 06 Dec 2021 01:51:32 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="flCodeSubs" created="Mon, 06 Dec 2021 01:51:36 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:53 GMT" >
+						<outline text="if true, and the headline has subs, they are rendered to look like programming source code" created="Mon, 06 Dec 2021 01:51:40 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="flNumberedSubs" created="Tue, 07 Dec 2021 06:33:15 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:21:56 GMT" >
+						<outline text="Add this to a headline with subs. When viewing the page the reader will see a number, in sequence, next to each of the subs. " created="Tue, 07 Dec 2021 06:33:16 GMT" />
+						<outline text="if true, and the headline has subs, they appear with a number in front of each, 1, 2, 3 and so on" created="Mon, 06 Dec 2021 01:51:23 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="true" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="imageLink" created="Tue, 07 Dec 2021 06:33:02 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:04 GMT" >
+						<outline text="If you have an image attribute, you can cause it to link to another place by adding an imageLink attribute whose value is the web address of the place" created="Tue, 07 Dec 2021 06:33:03 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="image" created="Mon, 06 Dec 2021 01:46:30 GMT" isComment="false" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:06 GMT" >
+						<outline text="the HTTP address of a right-margin image" created="Mon, 06 Dec 2021 01:50:23 GMT" />
+						<outline text="The URL of an image that appears to the right of the text of the post it's attached to." created="Tue, 07 Dec 2021 06:33:00 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 19 Mar 2022 02:28:19 GMT" >
+						<outline text="http://scripting.com/images/2022/05/25/amazonMusicIcon.png" created="Sat, 19 Mar 2022 02:28:22 GMT" />
+						</outline>
+					</outline>
+				<outline text="inlineImage" created="Mon, 06 Dec 2021 01:50:54 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:11 GMT" >
+						<outline text="an image, probably 550 pixels wide, that will be displayed inline" created="Mon, 06 Dec 2021 01:51:01 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="http://scripting.com/images/2022/05/27/yellowHickoryLeaves.png" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="inlineVideo " created="Tue, 07 Dec 2021 06:25:21 GMT" >
+					<outline text="Description" created="Sat, 28 May 2022 21:23:11 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:23:15 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="metaImage" created="Mon, 06 Dec 2021 01:51:12 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:23 GMT" >
+						<outline text="added to the title line of a titled post, included in the metadata for the page, as with description, above" created="Mon, 06 Dec 2021 01:51:15 GMT" />
+						<outline text="Like description, this is part of the Twitter and Facebook metadata. It's the image. We couldn't call it image because there already was an attribute with that name. " created="Tue, 07 Dec 2021 06:33:14 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="http://scripting.com/images/2022/05/10/newYorkRestaurant.png" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlexpandableimage" created="Tue, 07 Dec 2021 06:33:12 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:27 GMT" >
+						<outline text="URL of an image. If present there's a wedge to the left of the headline, click it to reveal the image below the post." created="Tue, 07 Dec 2021 06:33:13 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urltweet" created="Mon, 06 Dec 2021 01:50:34 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:31 GMT" >
+						<outline text="the HTTP address of a tweet you want to include with the post. When the page is rendered, there will be a wedge next to the item, which the reader can click to view the body of the tweet" created="Mon, 06 Dec 2021 01:50:40 GMT" />
+						<outline text="URL of a tweet. If present there's a wedge to the left of the headline, click it to reveal the embedded tweet below the post. You can get the URL by viewing the tweet in Twitter, copy the address in the address bar of the browser. " created="Tue, 07 Dec 2021 06:33:12 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				<outline text="urlvideo" created="Mon, 06 Dec 2021 01:50:46 GMT" >
+					<outline text="Description" created="Sat, 19 Mar 2022 02:22:36 GMT" >
+						<outline text="the HTTP address of a YouTube video, which is included with the post, as with urltweet, above" created="Mon, 06 Dec 2021 01:50:50 GMT" />
+						<outline text="URL of a YouTube video. If present there's a wedge to the left of the headline, click it to reveal the video below the post. You can get the URL by viewing the video in YouTube, click on Share and copy the URL." created="Tue, 07 Dec 2021 06:33:11 GMT" />
+						</outline>
+					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
+						<outline text="https://www.youtube.com/watch?v=Vim4ZKuNm6k" created="Sat, 28 May 2022 21:15:41 GMT" />
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+		<outline text="Notes" created="Sat, 28 May 2022 21:55:08 GMT" >
+			<outline text="All date-times conform to the Date and Time Specification of &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc822&quot;&gt;RFC 822&lt;/a&gt;, with the exception that the year may be expressed with two characters or four characters (four preferred)" created="Sat, 28 May 2022 21:37:51 GMT" />
+			<outline text="The value of type attributes are not case-sensitive, that is type=&quot;LINK&quot; has the same meaning as type=&quot;link&quot;   " created="Sat, 28 May 2022 21:55:10 GMT" />
+			</outline>
+		</body>
+	</opml>
