@@ -9,9 +9,9 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Sat, 28 May 2022 22:35:19 GMT</dateModified>
+		<dateModified>Sat, 28 May 2022 23:38:34 GMT</dateModified>
 		<expansionState>3,6,14,15,19,20,24,25,29,30,35</expansionState>
-		<lastCursor>28</lastCursor>
+		<lastCursor>3</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;OPML 2.0 spec&lt;/a&gt;" created="Mon, 06 Dec 2021 05:45:03 GMT" >
@@ -338,7 +338,7 @@
 				<outline text="word" created="Mon, 20 Dec 2021 00:55:34 GMT" type="word" />
 				</outline>
 			</outline>
-		<outline text="Old School" created="Mon, 06 Dec 2021 01:44:49 GMT" isComment="false" >
+		<outline text="&lt;a href=&quot;http://docserver.scripting.com/drummer/blogging.opml&quot;&gt;Old School&lt;/a&gt;" created="Mon, 06 Dec 2021 01:44:49 GMT" isComment="false" >
 			<outline text="Head elements" created="Mon, 06 Dec 2021 01:44:03 GMT" >
 				<outline text="copyright" created="Mon, 06 Dec 2021 01:45:59 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 02:20:27 GMT" >
@@ -358,10 +358,23 @@
 					</outline>
 				<outline text="timeZoneOffset" created="Mon, 06 Dec 2021 01:48:28 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 02:20:35 GMT" >
-						<outline text="the difference between the time where you are and GMT (see below). " created="Mon, 06 Dec 2021 01:49:55 GMT" />
+						<outline text="the difference between the time where you are and GMT, e.g." created="Mon, 06 Dec 2021 01:49:55 GMT" >
+							<outline text="Vancouver -8" created="Sat, 28 May 2022 23:29:09 GMT" />
+							<outline text="Barbados -4" created="Sat, 28 May 2022 23:29:24 GMT" />
+							<outline text="Buenos Aires -3" created="Sat, 28 May 2022 23:29:25 GMT" />
+							<outline text="London +0" created="Sat, 28 May 2022 23:29:27 GMT" />
+							<outline text="Accra +0" created="Sat, 28 May 2022 23:29:29 GMT" />
+							<outline text="Berlin +1" created="Sat, 28 May 2022 23:29:32 GMT" />
+							<outline text="Rome +1" created="Sat, 28 May 2022 23:29:33 GMT" />
+							<outline text="Vilnius +2" created="Sat, 28 May 2022 23:29:35 GMT" />
+							<outline text="Moscow +3" created="Sat, 28 May 2022 23:29:37 GMT" />
+							<outline text="Ho Chi Minh +7" created="Sat, 28 May 2022 23:29:38 GMT" />
+							<outline text="Shanghai +8" created="Sat, 28 May 2022 23:29:39 GMT" />
+							<outline text="Honolulu -10" created="Sat, 28 May 2022 23:29:41 GMT" />
+							</outline>
 						</outline>
 					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
-						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
+						<outline text="-8" created="Sat, 28 May 2022 23:30:24 GMT" />
 						</outline>
 					</outline>
 				<outline text="title" created="Mon, 06 Dec 2021 01:45:19 GMT" >
@@ -375,6 +388,7 @@
 				<outline text="urlAboutOpml" created="Mon, 06 Dec 2021 01:48:14 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 02:20:46 GMT" >
 						<outline text="the URL of the outline that is displayed in the About panel of your blog" created="Mon, 06 Dec 2021 01:49:41 GMT" />
+						<outline text="If you have a head-level attribute in blog.opml named urlAboutOpml, there will be a third tab, named About, displaying the contents of this outline." created="Sat, 28 May 2022 23:32:42 GMT" />
 						</outline>
 					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
 						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
@@ -382,8 +396,8 @@
 					</outline>
 				<outline text="urlBlogWebsite" created="Mon, 06 Dec 2021 01:48:35 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 02:20:50 GMT" >
-						<outline text="if you're hosting a front-end for the blog, on your own site, with your URL, this is that address (see below)" created="Mon, 06 Dec 2021 01:50:04 GMT" />
-						<outline text="In Drummer, your blogf file must have a head-level urlBlogWebsite attribute, if not oldSchool.getCursorLink returns undefined. " created="Wed, 23 Mar 2022 19:42:20 GMT" />
+						<outline text="if you're hosting a front-end for the blog, on your own site, with your URL, this is that address (see &lt;a href=&quot;http://docserver.scripting.com/drummer/blogging.opml#1628776787000&quot;&gt;here&lt;/a&gt;)" created="Mon, 06 Dec 2021 01:50:04 GMT" />
+						<outline text="In Drummer, your blog file must have a head-level urlBlogWebsite attribute, if not oldSchool.getCursorLink returns undefined. " created="Wed, 23 Mar 2022 19:42:20 GMT" />
 						</outline>
 					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
 						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
@@ -415,7 +429,7 @@
 					</outline>
 				<outline text="urlLinkblogJson" created="Mon, 06 Dec 2021 01:45:52 GMT" >
 					<outline text="Description" created="Sat, 19 Mar 2022 02:21:17 GMT" >
-						<outline text="for the Links tab of your blog (see below)" created="Mon, 06 Dec 2021 01:50:12 GMT" />
+						<outline text="for the Links tab of your blog (see &lt;a href=&quot;http://docserver.scripting.com/drummer/blogging.opml#1633177803000&quot;&gt;here&lt;/a&gt;)" created="Mon, 06 Dec 2021 01:50:12 GMT" />
 						</outline>
 					<outline text="Example" created="Sat, 28 May 2022 21:15:28 GMT" >
 						<outline text="TK" created="Sat, 28 May 2022 21:15:41 GMT" />
