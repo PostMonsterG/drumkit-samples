@@ -9,9 +9,9 @@
 		<ownerTwitterScreenName>PostMonsterG</ownerTwitterScreenName>
 		<ownerName>Gary Teter</ownerName>
 		<ownerId>http://twitter.com/PostMonsterG</ownerId>
-		<dateModified>Sun, 29 May 2022 00:24:03 GMT</dateModified>
-		<expansionState>3,4,17,25,26,30,31,35,36,40,41,46</expansionState>
-		<lastCursor>14</lastCursor>
+		<dateModified>Mon, 30 May 2022 14:42:21 GMT</dateModified>
+		<expansionState>2,5,26,27,40,48,49,53,54,58,59,63,64,69</expansionState>
+		<lastCursor>4</lastCursor>
 		</head>
 	<body>
 		<outline text="&lt;a href=&quot;http://opml.org/spec2.opml&quot;&gt;OPML 2.0 spec&lt;/a&gt;" created="Mon, 06 Dec 2021 05:45:03 GMT" >
@@ -322,7 +322,6 @@
 				<outline text="home" created="Mon, 20 Dec 2021 00:45:01 GMT" type="home" />
 				<outline text="html" created="Sun, 19 Dec 2021 18:54:15 GMT" type="html" />
 				<outline text="icon-user" created="Mon, 20 Dec 2021 00:46:38 GMT" type="icon-user" />
-				<outline text="idea" created="Mon, 20 Dec 2021 00:50:47 GMT" type="idea" />
 				<outline text="include" created="Mon, 20 Dec 2021 00:47:06 GMT" type="include" />
 				<outline text="link" created="Mon, 20 Dec 2021 00:47:21 GMT" type="link" />
 				<outline text="markdown" created="Sun, 19 Dec 2021 18:54:02 GMT" type="markdown" />
